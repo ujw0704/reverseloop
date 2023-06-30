@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+   <div id ="wrapper">
+     <div id = "container">
+        <input type ="text placeholder="Enter your name"></input>
+    <button id ="button">submit</button>
+</div>
+</div>
+
+
+    <script>
+        
+         var input = prompt("please enter your name");
+        let reverse =""
+        let btn = document.querySelector("#button");
+       
+            for(let i=input.length-1;i>=0;i--){
+                reverse += input[i]
+         
+        
+            }
+            console.log(revrse)
+
+    </script>
+</body>
+</html>
